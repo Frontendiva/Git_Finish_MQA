@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/1.css">
+    <title>Guess Number</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Number Guessing Game</h1>
+        <p id="rules">Привет, я загадал число от <span id="min"></span> до <span id="max"></span>. 
+            Попробуй угадать его за 5 попыток!</p>
+            <input type="text" id="minInput" placeholder="Минимальное значение">
+            <input type="text" id="maxInput" placeholder="Максимальное значение">
+            <button id="setRange">Установить диапазон</button>
+            <input type="text" id="userInput" placeholder="Ваше число">
+            <button id="check" >CHECK</button>
+            <button id="exit" >EXIT</button>
+            <p id="error"></p>
+            <p id="result"></p>
+    </div>
+    <script src="/1.js"></script>
+</body>
+</html>

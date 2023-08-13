@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  .container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: antiquewhite;
+  border: 1px solid #ccc;
+  }
+
+  h1 {
+    margin-top: 0;
+    color: brown;
+  }
+  
+  button {
+    margin-top: 10px;
+    background-color: cadetblue;
+  }
+
+  p {
+    color: blue;
+  }
